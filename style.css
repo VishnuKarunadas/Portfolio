@@ -1,0 +1,125 @@
+body{
+    background: url('images/bg_01.jpg') rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.contact-container,.footer {
+    background-image: url('images/bg_01.jpg');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;/
+    /* overflow-x: hidden; */
+}
+
+.home-img {
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Same as width to maintain aspect ratio */
+    overflow: hidden; /* Hide overflow to ensure the image stays inside the circle */
+    border-radius: 50%; /* Make it circular */
+    display: flex; /* Centering the image */
+    align-items: center; /* Centering the image vertically */
+    justify-content: center; /* Centering the image horizontally */
+}
+
+.home-img img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 991px) {
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+    .contact-input{
+        width: 70vw;
+
+    }
+    .contact-right{
+        display: none;
+    }
+
+    
+}
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+.contact-container{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Contact-left{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: blanchedalmond;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+.contact-left-title hr{
+    border: none;
+    width: 210px;
+    height: 5px;
+    background-color: rgb(185, 177, 194);
+    border-radius: 10px;
+
+}
+.contact-inputs{
+    width: 350px;
+    height: 50px;
+    border: none;
+    padding-left: 25px;
+    font-weight: 500;
+     color: #666;
+     border-radius: 50px;
+}
+.Contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+}
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
+}
+.contact-inputs::placeholder{
+    color: #692828;
+
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+
+}
+/* @media (max-width:800px){
+    .contact-input{
+        width: 80vw;
+
+    }
+    .contact-right{
+        display: none;
+    }
+} */
