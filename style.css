@@ -12,25 +12,15 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;/
-    /* overflow-x: hidden; */
+    
 }
-
-
-
 @media (max-width: 991px) {
     .sidebar{
         background-color: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
     }
-    .contact-input{
-        width: 70vw;
 
-    }
-    .contact-right{
-        display: none;
-    }
 
-    
 }
 /* *{
     padding: 0;
@@ -101,7 +91,7 @@ body{
     cursor: pointer;
 
 }
-/* @media (max-width:800px){
+@media (max-width:800px){
     .contact-input{
         width: 80vw;
 
@@ -109,4 +99,4 @@ body{
     .contact-right{
         display: none;
     }
-} */
+}
